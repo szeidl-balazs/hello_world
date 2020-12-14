@@ -24,8 +24,8 @@ function getNameInput() {
 
 
 function sayHello() {
-	let yourName = getNameInput();
-	let message = getHelloMessage(yourName);
+	let userName = getNameInput();
+	let message = getHelloMessage(userName);
 	console.log(message);
 }
 
